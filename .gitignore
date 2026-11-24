@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.DS_Store
+
+# Large generated data and model artifacts
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.npy
+*.npz
+run_summary.txt
+curve.csv
+curve_dataset.csv
+curve_clean.csv
+curve_dataset_clean.csv
+final_dual_model/
+search_time_results/
+search_conc_results/
+checkpoints/
+scalers/
+results/
+split_manifest.json
